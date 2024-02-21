@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ecomerce-app",
+    "slug": "ecomerce-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logorojo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logorojo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta aplicación requiere acceso a la cámara para tomar fotos.",
+        "NSPhotoLibraryUsageDescription": "Esta aplicación requiere acceso a la biblioteca de fotos."
+      },
+      "bundleIdentifier": "com.jesuscabrita.ecomerceapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logorojo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.jesuscabrita.ecomerceapp"
+    },
+    "web": {
+      "favicon": "./assets/logorojo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f599a1fe-b6b4-4985-824c-53506cd91429"
+      }
+    }
+  }
+}
